@@ -40,21 +40,21 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:text="►" />
+            android:text="play" />
 
         <Button
             android:id="@+id/down_mid"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="||" />
+            android:text="pause" />
 
         <Button
             android:id="@+id/down_right"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="▇" />
+            android:text="stop" />
 
     </RelativeLayout>
 
