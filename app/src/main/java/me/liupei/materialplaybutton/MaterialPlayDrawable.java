@@ -239,6 +239,10 @@ public class MaterialPlayDrawable extends Drawable {
         mAnimation = animation;
     }
 
+    /**
+     * switch to another status without animation
+     * @param status STATUS_PLAY or STATUS_PAUSE or STATUS_STOP
+     */
     public void setStatus(int status) {
         if (status != this.status) {
 
@@ -261,6 +265,10 @@ public class MaterialPlayDrawable extends Drawable {
         }
     }
 
+    /**
+     * switch to another status with animation
+     * @param status STATUS_PLAY or STATUS_PAUSE or STATUS_STOP
+     */
     public void switchStatus(int status) {
 
         if (status != this.status) {
