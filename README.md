@@ -1,6 +1,6 @@
-# MaterialPlayButton
+# MaterialPlayDrawable
 
-a material design play button
+a Material Design drawable for play button
 
 ![](./demo.gif)
 

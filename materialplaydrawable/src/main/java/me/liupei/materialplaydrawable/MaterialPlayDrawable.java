@@ -1,4 +1,4 @@
-package me.liupei.materialplaybutton;
+package me.liupei.materialplaydrawable;
 
 import android.content.Context;
 import android.graphics.Canvas;

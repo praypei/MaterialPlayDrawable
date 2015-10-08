@@ -1,4 +1,4 @@
-package me.liupei.materialplaybutton;
+package me.liupei.materialplaydrawable;
 
 import android.graphics.Path;
 import android.graphics.PointF;
@@ -6,7 +6,7 @@ import android.graphics.PointF;
 /**
  * Created by liupei on 15/9/28.
  */
-public class GraphTransfer {
+class GraphTransfer {
 
 
     public static Path pauseToStopLeft(int size, float progress) {
