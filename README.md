@@ -10,7 +10,7 @@ Usage
 
 ###includ in your projext
 ```groovy
-compile 'me.liupei:materialplaydrawable:1.0'
+compile 'me.liupei:materialplaydrawable:1.0.1'
 ```
 
 ###in your code
