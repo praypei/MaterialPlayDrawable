@@ -26,9 +26,9 @@ public class MaterialPlayDrawable extends Drawable {
 
     private int status = STATUS_STOP;
 
-    public static final int STATUS_PLAY = 0x01;
-    public static final int STATUS_STOP = 0x02;
-    public static final int STATUS_PAUSE = 0x03;
+    public static final int STATUS_STOP = 0;
+    public static final int STATUS_PLAY = 1;
+    public static final int STATUS_PAUSE = 2;
 
     private int process = PROCESS_STOP_PLAY;
 
@@ -241,6 +241,7 @@ public class MaterialPlayDrawable extends Drawable {
 
     /**
      * switch to another status without animation
+     *
      * @param status STATUS_PLAY or STATUS_PAUSE or STATUS_STOP
      */
     public void setStatus(int status) {
@@ -266,7 +267,17 @@ public class MaterialPlayDrawable extends Drawable {
     }
 
     /**
+     * get the drawable status
+     *
+     * @return status STATUS_PLAY or STATUS_PAUSE or STATUS_STOP
+     */
+    public int getStatus() {
+        return this.status;
+    }
+
+    /**
      * switch to another status with animation
+     *
      * @param status STATUS_PLAY or STATUS_PAUSE or STATUS_STOP
      */
     public void switchStatus(int status) {
